@@ -1,6 +1,6 @@
 import os
 from random import randint 
-for i in range(190,220):
+for i in range(220,randint(221,300)):
     for j in range(0,randint(1,10)):
         d=str(i) +'days ago'
         with open('file.txt','a') as file:
